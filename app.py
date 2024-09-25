@@ -5,8 +5,6 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-
-
 st.set_page_config(
     page_title="Email Detection",
     page_icon="spam.png",
