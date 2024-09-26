@@ -1,3 +1,6 @@
+import os
+os.system('python nltk_setup.py')
+
 import streamlit as st
 import pickle
 import string 
