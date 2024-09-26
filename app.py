@@ -2,9 +2,10 @@ import streamlit as st
 import pickle
 import string 
 import nltk
+import nltk_setup
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
-import nltk_setup
+
 
 st.set_page_config(
     page_title="Email Detection",
