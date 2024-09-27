@@ -1,5 +1,11 @@
 # importing all the requirment
 import streamlit as st
+st.set_page_config(
+    page_title="Email Detection",
+    page_icon="spam.png",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 import pickle
 import string 
 import os
@@ -9,14 +15,6 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps=PorterStemmer()
-
-
-st.set_page_config(
-    page_title="Email Detection",
-    page_icon="spam.png",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 
 
