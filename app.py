@@ -8,10 +8,10 @@ st.set_page_config(
 )
 import pickle
 import string 
+import nltk
 import os
 os.system('python nltk_setup.py')
 import nltk_setup
-import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps=PorterStemmer()
