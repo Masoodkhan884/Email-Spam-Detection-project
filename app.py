@@ -1,13 +1,14 @@
-import os
-os.system('python nltk_setup.py')
-
+# importing all the requirment
 import streamlit as st
 import pickle
 import string 
-import nltk
+import os
+os.system('python nltk_setup.py')
 import nltk_setup
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+ps=PorterStemmer()
 
 
 st.set_page_config(
@@ -17,7 +18,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-ps=PorterStemmer()
+
 
 # side bar
 from PIL import Image
